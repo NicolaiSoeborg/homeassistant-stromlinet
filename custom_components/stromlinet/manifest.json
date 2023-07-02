@@ -3,7 +3,8 @@
   "name": "Strømlinet",
   "version": "0.1.0",
   "integration_type": "service",
-  "codeowners": ["NicolaiSoeborg"],
+  "codeowners": ["@NicolaiSoeborg"],
+  "documentation": "https://github.com/NicolaiSoeborg/homeassistant-stromlinet",
   "config_flow": true,
   "iot_class": "cloud_polling",
   "requirements": ["httpx"]
