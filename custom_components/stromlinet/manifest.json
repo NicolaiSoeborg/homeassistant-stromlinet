@@ -1,12 +1,16 @@
 {
-  "domain": "stromlinet",
-  "name": "Strømlinet",
-  "version": "0.1.0",
-  "integration_type": "service",
-  "codeowners": ["@NicolaiSoeborg"],
-  "documentation": "https://github.com/NicolaiSoeborg/homeassistant-stromlinet",
-  "issue_tracker": "https://github.com/NicolaiSoeborg/homeassistant-stromlinet/issues",
-  "config_flow": true,
-  "iot_class": "cloud_polling",
-  "requirements": ["httpx"]
+    "domain": "stromlinet",
+    "name": "Strømlinet",
+    "codeowners": [
+        "@NicolaiSoeborg"
+    ],
+    "config_flow": true,
+    "documentation": "https://github.com/NicolaiSoeborg/homeassistant-stromlinet",
+    "integration_type": "service",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/NicolaiSoeborg/homeassistant-stromlinet/issues",
+    "requirements": [
+        "httpx"
+    ],
+    "version": "0.1.0"
 }
