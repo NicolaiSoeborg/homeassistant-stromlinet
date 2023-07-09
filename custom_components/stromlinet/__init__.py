@@ -2,12 +2,13 @@ from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
 
+from .api import Api
 from .const import DOMAIN
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    username = entry.options.get('username')
-    password = entry.options.get('password')
+    username = entry.data.get('username')
+    password = entry.data.get('password')
 
     #api = Stromlinet(username, password)
     #await api.refresh()
